@@ -1,118 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Create stop motion videos effortlessly with iMotion - the best app for creative professionals!">
-    <title>iMotion - Stop Motion App</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="CanvatechStudio - Building creative mobile experiences."/>
+  <title>CanvatechStudio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1A1220;
+      color: #fff;
+    }
 
-        header {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 50px 0;
-        }
+    header {
+      background-color: #261B2C;
+      padding: 60px 20px;
+      text-align: center;
+    }
 
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
 
-        .cta-button {
-            display: inline-block;
-            background-color: #ff6600;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
 
-        .cta-button:hover {
-            background-color: #cc5200;
-        }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-        .section {
-            padding: 60px 20px;
-            text-align: center;
-        }
+    .apps {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
 
-        .features {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin: 20px 0;
-        }
+    .app-card {
+      background-color: #3B2D4A;
+      padding: 20px;
+      border-radius: 12px;
+      width: 220px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
 
-        .feature-box {
-            flex: 1 1 200px;
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+    .app-card:hover {
+      transform: translateY(-5px);
+    }
 
-        .feature-box h3 {
-            margin-top: 10px;
-        }
+    .app-card img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+    }
 
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    .app-card h3 {
+      margin: 10px 0 5px;
+      color: #FF6600;
+    }
+
+    .app-card p {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .app-card a {
+      display: inline-block;
+      margin-top: 12px;
+      text-decoration: none;
+      color: #FF6600;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #120C18;
+      color: #bbb;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to iMotion</h1>
-        <p>Your go-to app for creating stunning stop motion videos</p>
-        <a href="https://link-to-app-store" class="cta-button">Download iMotion Now</a>
-    </header>
+  <!-- Header -->
+  <header>
+    <h1>CanvaTechStudio</h1>
+    <p>Building creative tools for creators and makers.</p>
+  </header>
 
-    <!-- Features Section -->
-    <section class="section">
-        <h2>Features</h2>
-        <div class="features">
-            <div class="feature-box">
-                <h3>Easy to Use</h3>
-                <p>Simple and intuitive interface to create professional stop-motion animations with ease.</p>
-            </div>
-            <div class="feature-box">
-                <h3>High-Quality Output</h3>
-                <p>Export your animations in high resolution for amazing quality in every frame.</p>
-            </div>
-            <div class="feature-box">
-                <h3>Share and Collaborate</h3>
-                <p>Easily share your creations on social media or with friends and collaborators.</p>
-            </div>
-        </div>
-    </section>
+  <!-- Apps Section -->
+  <section class="section">
+    <h2>Our Apps</h2>
+    <div class="apps">
 
-    <!-- Download Section -->
-    <section class="section">
-        <h2>Start Creating Today!</h2>
-        <p>Download iMotion now and bring your creative ideas to life with stop motion animation.</p>
-        <a href="https://link-to-app-store" class="cta-button">Get iMotion on the App Store</a>
-    </section>
+      <!-- iMotion App Card -->
+      <div class="app-card">
+        <img src="StopMotionIcon.png" alt="iMotion Icon">
+        <h3>iMotion</h3>
+        <p>Create stunning stop motion videos with ease.</p>
+        <a href="imotion/index.html">Learn More</a>
+      </div>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 iMotion. All rights reserved.</p>
-    </footer>
+      <!-- Future app cards can be added here -->
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 CanvatechStudio. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
